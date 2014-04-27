@@ -8,8 +8,17 @@ h1 {
 }
 
 #container {
-	height: 100px;
+	height: auto;
 	width: 960px;
 	margin: auto;
 	background-color: #f00;
+	line-height: 0;
+}
+
+.square {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	background-color: #fff;
+	border: solid 1px #000;
 }
