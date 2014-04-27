@@ -16,7 +16,9 @@ makeSquares(numSquares);
 // console.log(squares);
 
 $(document).ready (function() {
-	$("#checkScript").remove();
+	$("h1").addClass("hidden");
+	$("#checkScript").addClass("hidden");
+	$("#options").removeClass("hidden");
 	$("body").append('<div id="container"></div>');
 	$("#container").css({
 		width: containerSize + "px"
@@ -31,5 +33,8 @@ $(document).ready (function() {
 	$(".square").mouseenter( function() {
 		$(this).addClass("colored");
 	});
+	$("#btn_clear").click(function() {
+		$("#container .square").removeClass("colored");
+	})
 });
 

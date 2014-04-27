@@ -1,3 +1,7 @@
+.hidden {
+	display: none;
+}
+
 body {
 	font-family: arial, helvetica, sans-serif;
 }
@@ -5,6 +9,10 @@ body {
 h1 {
 	font-size: 2em;
 	text-align: center;
+}
+
+#options {
+	float: left;
 }
 
 #container {
