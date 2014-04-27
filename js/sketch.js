@@ -29,9 +29,7 @@ $(document).ready (function() {
 		width: sqDimensions
 	});
 	$(".square").mouseenter( function() {
-		$(this).css({
-			"background-color": "#f00"
-		});
+		$(this).addClass("colored");
 	});
 });
 

@@ -22,3 +22,7 @@ h1 {
 	background-color: #fff;
 	border: solid 1px #000;
 }
+
+.colored {
+	background-color: #f00;
+}
