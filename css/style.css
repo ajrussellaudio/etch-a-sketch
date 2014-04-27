@@ -25,12 +25,11 @@ h1 {
 
 .square {
 	display: inline-block;
-	margin: 0px;
-	padding: 0px;
 	background-color: #fff;
-	border: solid 1px #000;
+	border: solid 1px #ccc;
 }
 
 .colored {
-	background-color: #f00;
+	background-color: #000;
+	border: solid 1px #000;
 }
